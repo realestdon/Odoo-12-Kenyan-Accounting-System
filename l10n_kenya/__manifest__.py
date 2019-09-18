@@ -12,7 +12,7 @@
     'author': 'Dishon Kadoh',
     'website': 'dishon.kadoh@gmail.com',
     'support': 'dishon.kadoh@gmail.com',
-    'license': ' LGPL-3',
+    'license': ' AGPL-3',
     'depends': ['account', 'base_vat'],
     'data': [
         'data/account.account.tag.csv',
