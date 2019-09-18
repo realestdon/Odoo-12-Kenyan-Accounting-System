@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <menuitem id="account_reports_za_statements_menu" name="Kenya" parent="account.menu_finance_reports" sequence="0" groups="account.group_account_user"/>
+    <menuitem id="account_reports_kenya_statements_menu"
+              name="Kenyan Tax and Account Chart Template"
+              parent="account.menu_finance_reports" sequence="0"
+              groups="account.group_account_user"/>
 
     <record id="default_chart_template" model="account.chart.template">
         <field name="name">Kenyan Tax and Account Chart Template</field>
