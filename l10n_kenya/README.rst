@@ -1,4 +1,4 @@
-DEscription
+Description
 ===============================
 
 This module Provides Basic Kenyan Chart of Accounts localisation necessary to run Odoo in Kenya:
@@ -16,4 +16,4 @@ Contributors
 
 Maintainer
 ----------
-This module is maintained by Rottal Solutions LImited <https://rottalsolutions.com>
+This module is maintained by Rottal Solutions Limited <https://rottalsolutions.com>
