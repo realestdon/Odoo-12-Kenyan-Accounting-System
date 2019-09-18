@@ -1,9 +1,9 @@
 id,name,applicability
-tag_ST1,Sales VAT Zero Rated,taxes
-tag_ST1A,Sales VAT (16%),taxes
-tag_ST2,Sales VAT Exempt,taxes
-tag_PT1,Purchases VAT Zero Rated,taxes
-tag_PT1A,Purchases VAT (16%),taxes
-tag_PT2,Purchase VAT Exempt,taxes
-tag_ed1,Sales Excise Duty (10%),taxes
-tag_ed2,Purchase Excise Duty (10%),taxes
+tag_ST0,Sales VAT Zero Rated,taxes
+tag_ST16,Sales VAT (16%),taxes
+tag_STEX,Sales VAT Exempt,taxes
+tag_STEXD,Sales Excise Duty (10%),taxes
+tag_PT0,Purchases VAT Zero Rated,taxes
+tag_PT16,Purchases VAT (16%),taxes
+tag_PTEX,Purchase VAT Exempt,taxes
+tag_PTEXD,Purchase Excise Duty (10%),taxes

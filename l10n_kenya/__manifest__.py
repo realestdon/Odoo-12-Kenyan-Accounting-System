@@ -3,16 +3,19 @@
 # Copyright (C) 2019 Dishon Kadoh (<dishon.kadoh@gmail.com>).
 
 {
-    'name': 'Kenya - Accounting',
-    'version': '1.0',
+    'name': 'Odoo12 Kenya - Accounting',
+    'version': '12.0.0.1',
     'category': 'Localization',
     'license': 'AGPL-3',
     'description': """
         Basic Kenyan Chart of Accounts localisation necessary to run Odoo in Kenya:
+        ================================================================================
+        * A generic chart of accounts
+        * Defines templates for sale and purchase VAT
+        * Defines tax templates
    """,
     'author': 'Dishon Kadoh',
     'website': 'https://rottalsolutions.com',
-    'support': 'dishon.kadoh@gmail.com',
     'depends': ['account', 'base_vat'],
     'data': [
         'data/account.account.tag.csv',
