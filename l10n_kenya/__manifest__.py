@@ -10,9 +10,8 @@
         Basic Kenyan Chart of Accounts localisation necessary to run Odoo in Kenya:
    """,
     'author': 'Dishon Kadoh',
-    'website': 'dishon.kadoh@gmail.com',
+    'website': 'https://rottalsolutions.com',
     'support': 'dishon.kadoh@gmail.com',
-    'license': ' AGPL-3',
     'depends': ['account', 'base_vat'],
     'data': [
         'data/account.account.tag.csv',
