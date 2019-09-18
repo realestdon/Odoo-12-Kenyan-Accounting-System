@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="ST0" model="account.tax.template">
+        <field name="description">Sales VAT Zero Rated</field>
+        <field name="chart_template_id" ref="default_chart_template"/>
+        <field name="type_tax_use">sale</field>
+        <field name="name">Sales VAT Zero Rated (0%)</field>
+        <field name="amount_type">percent</field>
+        <field name="amount">0</field>
+        <field name="account_id" ref="200060"/>
+        <field name="refund_account_id" ref="200060"/>
+        <field name="tag_ids" eval="[(6,0,[ref('tag_ST1')])]"/>
+        <field name="tax_group_id" ref="tax_group_0"/>
+    </record>
+
+    <record id="ST1" model="account.tax.template">
+        <field name="description">Sales VAT (16%)</field>
+        <field name="chart_template_id" ref="default_chart_template"/>
+        <field name="type_tax_use">sale</field>
+        <field name="name">Sales VAT (16%)</field>
+        <field name="amount_type">percent</field>
+        <field name="amount">16</field>
+        <field name="account_id" ref="200060"/>
+        <field name="refund_account_id" ref="200060"/>
+        <field name="tag_ids" eval="[(6,0,[ref('tag_ST1A')])]"/>
+        <field name="tax_group_id" ref="tax_group_2"/>
+    </record>
+
+    <record id="ST2" model="account.tax.template">
+        <field name="description">Sales VAT Exempt</field>
+        <field name="chart_template_id" ref="default_chart_template"/>
+        <field name="type_tax_use">sale</field>
+        <field name="name">Sales VAT Exempt</field>
+        <field name="amount_type">percent</field>
+        <field name="amount">0</field>
+        <field name="account_id" ref="200060"/>
+        <field name="refund_account_id" ref="200060"/>
+        <field name="tag_ids" eval="[(6,0,[ref('tag_ST2')])]"/>
+        <field name="tax_group_id" ref="tax_group_0"/>
+    </record>
+
+    <record id="PT0" model="account.tax.template">
+        <field name="description">Purchases VAT Zero rated</field>
+        <field name="chart_template_id" ref="default_chart_template"/>
+        <field name="type_tax_use">purchase</field>
+        <field name="name">Purchases VAT Zero rated (0%)</field>
+        <field name="amount_type">percent</field>
+        <field name="amount">0</field>
+        <field name="account_id" ref="100060"/>
+        <field name="refund_account_id" ref="100060"/>
+        <field name="tag_ids" eval="[(6,0,[ref('tag_PT1')])]"/>
+        <field name="tax_group_id" ref="tax_group_0"/>
+    </record>
+
+    <record id="PT1" model="account.tax.template">
+        <field name="description">Purchases VAT</field>
+        <field name="chart_template_id" ref="default_chart_template"/>
+        <field name="type_tax_use">purchase</field>
+        <field name="name">Purchases VAT (16%)</field>
+        <field name="amount_type">percent</field>
+        <field name="amount">16</field>
+        <field name="account_id" ref="100060"/>
+        <field name="refund_account_id" ref="100060"/>
+        <field name="tag_ids" eval="[(6,0,[ref('tag_PT1A')])]"/>
+        <field name="tax_group_id" ref="tax_group_2"/>
+    </record>
+
+    <record id="PT2" model="account.tax.template">
+        <field name="description">Purchase VAT Exempt</field>
+        <field name="chart_template_id" ref="default_chart_template"/>
+        <field name="type_tax_use">purchase</field>
+        <field name="name">Purchase VAT Exempt</field>
+        <field name="amount_type">percent</field>
+        <field name="amount">0</field>
+        <field name="account_id" ref="100060"/>
+        <field name="refund_account_id" ref="100060"/>
+        <field name="tag_ids" eval="[(6,0,[ref('tag_PT2')])]"/>
+        <field name="tax_group_id" ref="tax_group_0"/>
+    </record>
+
+    <record id="ED1" model="account.tax.template">
+        <field name="description">Sales Excise Duty</field>
+        <field name="chart_template_id" ref="default_chart_template"/>
+        <field name="type_tax_use">sale</field>
+        <field name="name">Sales Excise Duty (10%)</field>
+        <field name="amount_type">percent</field>
+        <field name="amount">10</field>
+        <field name="account_id" ref="200060"/>
+        <field name="refund_account_id" ref="200060"/>
+        <field name="tag_ids" eval="[(6,0,[ref('tag_ed1')])]"/>
+        <field name="tax_group_id" ref="tax_group_1"/>
+    </record>
+
+    <record id="ED1" model="account.tax.template">
+        <field name="description">Purchase Excise Duty</field>
+        <field name="chart_template_id" ref="default_chart_template"/>
+        <field name="type_tax_use">purchase</field>
+        <field name="name">Purchase Excise Duty (10%)</field>
+        <field name="amount_type">percent</field>
+        <field name="amount">10</field>
+        <field name="account_id" ref="100060"/>
+        <field name="refund_account_id" ref="100060"/>
+        <field name="tag_ids" eval="[(6,0,[ref('tag_ed1')])]"/>
+        <field name="tax_group_id" ref="tax_group_1"/>
+    </record>
+
+</odoo>
