@@ -6,6 +6,7 @@
     'name': 'Kenya - Accounting',
     'version': '1.0',
     'category': 'Localization',
+    'license': 'AGPL-3',
     'description': """
         Basic Kenyan Chart of Accounts localisation necessary to run Odoo in Kenya:
    """,
